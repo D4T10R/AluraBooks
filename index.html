@@ -7,8 +7,14 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">  you need to import and configure them too:
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+   
     <link rel="stylesheet" href="/style/style.css">
+
     <title>AluraBooks</title>
 </head>
 <body>
@@ -52,5 +58,143 @@
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
     </section>
     
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Ultimos lançamentos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-pagination"></div>
+            
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt=""></div>
+              <div class="swiper-slide"><img src="img/Arquitetura.svg" alt=""></div>
+              <div class="swiper-slide"><img src="img/Portugol.svg" alt=""></div>
+              <div class="swiper-slide"><img src="img/Javascript.svg" alt=""></div>
+              <div class="swiper-slide"><img src="img/Tuning.svg" alt=""></div>
+            </div>
+                    
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+          </div>
+
+    </section>
+
+    <section class="card">
+        <!-- Linha 1 -->
+        <div class="card-desc">
+            <!-- Coluna 1 -->
+            <div class="card__descricao">
+                <h2 class="card__descricao__titulo">Talvez você também se interesse por...</h2>
+                <h3 class="card__descricao__titulo-livro">Angular 11 e Firebase</h3>
+                <p class="card__descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+            </div>
+            <!-- Coluna 2 -->
+            <img src="./img/Perfil-escritora 2.png" alt="Simbulo do  angular" class="card__imagen-livro">
+        </div>
+
+        <!-- Linha 2 -->
+        <div class="card-icons">
+            <!-- Coluna 1 -->
+            <ul class="card__icones">
+                <li class="card__icones__imagens"><img src="./img/Favoritos.svg" alt="gostei"></li>
+                <li class="card__icones__imagens"><img src="./img/Compras.png" alt="compras"></li>
+            </ul>
+            <!-- Coluna 2 -->
+            <a href="#" class="card__saiba-mais">Saiba mais</a>
+        </div>
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Ultimos lançamentos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-pagination"></div>
+            
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="img/Liderança.svg" alt=""></div>
+              <div class="swiper-slide"><img src="img/Gestão2.svg" alt=""></div>
+              <div class="swiper-slide"><img src="img/MetricasAgeis.svg" alt=""></div>
+              <div class="swiper-slide"><img src="img/ReactNative.svg" alt=""></div>
+              <div class="swiper-slide"><img src="img/Tuning.svg" alt=""></div>
+            </div>
+                    
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+          </div>
+    </section>
+
+    <section class="card">
+        <!-- Linha 1 -->
+        <div class="card-desc">
+            <!-- Coluna 1 -->
+            <div class="card__descricao">
+                <h2 class="card__descricao__estrela"> &#8902;&#8902;&#8902;&#8902;&#8902;</h2>
+                <h3 class="card__descricao__titulo">Autora do Mês</h2>
+                <h4 class="card__descricao__titulo-livro">Juliana Agarikov</h3>
+                <p class="card__descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+            </div>
+            <!-- Coluna 2 -->
+            <img src="./img/Perfil-escritora 2.png" alt="Simbulo do  angular" class="card__imagen-livro">
+        </div>
+        <!-- Linha 2 -->
+        <div class="card-icons">
+            <!-- Coluna 1 -->
+            <ul class="card__icones">
+                <li class="card__icones__imagens"><img src="./img/Favoritos.svg" alt="gostei"></li>
+                <li class="card__icones__imagens"><img src="./img/Compras.png" alt="compras"></li>
+            </ul>
+            <!-- Coluna 2 -->
+            <a href="#" class="card__saiba-mais">Saiba mais</a>
+        </div>
+    </section>
+
+    <section class="topicos">
+        <div class="topicos__todos">
+            <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+            <ul class="lista-topicos">
+                <li><a href="#" class="lista-topicos__links">Android</a></li>
+                <li><a href="#" class="lista-topicos__links">Marketing Digital</a></li>
+                <li><a href="#" class="lista-topicos__links">Agile</a></li>
+                <li><a href="#" class="lista-topicos__links">Startup</a></li>
+                <li><a href="#" class="lista-topicos__links">HTML & CSS</a></li>
+                <li><a href="#" class="lista-topicos__links">Python</a></li>
+                <li><a href="#" class="lista-topicos__links">OO</a></li>
+                <li><a href="#" class="lista-topicos__links">Java</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="novidades">
+        <h2 class="novidades__titulo">Fique por dentro das novidades!</h2>
+        <p class="novidades__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <input type="email" placeholder="Cadastre seu e-mail" class="novidades__email">
+    </section>
+
+    <hr>
+
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Datior</h2>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+
+    </script>
 </body>
+
 </html>
