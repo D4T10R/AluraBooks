@@ -33,3 +33,40 @@
     background-position: left 10px top 13px;
     text-align: center;
 }
+
+@media screen and (min-width: 1024px) {
+
+
+    .novidades {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2em 5em;
+    }
+
+    .novidades__div {
+        display: flex;
+        width: 80%;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .novidades__frases {
+        width: 37%;
+        text-align: left;
+    }
+
+    .novidades__titulo {
+        font-size: 24px;
+    }
+
+    .novidades__email {
+        width: 35%;
+        padding-left: 3em;
+    }
+
+    .novidades__email::placeholder {
+        text-align: left;
+    }
+
+}

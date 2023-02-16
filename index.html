@@ -12,6 +12,7 @@
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
    
     <link rel="stylesheet" href="/style/style.css">
 
@@ -26,6 +27,7 @@
             </label>
             <ul class="lista-menu">
                 <li class="lista-menu__titulo">Categorias</li>
+                <input type="checkbox">
                 <li class="lista-menu__itens">
                     <a href="#">programação</a>
                 </li>
@@ -43,10 +45,39 @@
                 </li>
             </ul>
             <img src="./img/Logo.svg" alt="" class="container__imagem">
+            <h1 class="container__titulo"><b class="container__titulo__b">Alura</b>Books</h1>
+        </div>
+
+        <div class="container-lista">
+            <ul class="container__lista">
+                <input type="checkbox" id="opcao-menu" class="container__botao"> 
+                <label for="opcao-menu">
+                    <li class="container__lista__link">Categorias</li>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__itens">
+                        <a href="#">programação</a>
+                    </li>
+                    <li class="lista-menu__itens">
+                        <a href="#">front-end</a>
+                    </li>
+                    <li class="lista-menu__itens">
+                        <a href="#">infraestrutura</a>
+                    </li>
+                    <li class="lista-menu__itens">
+                        <a href="#">business</a>
+                    </li>                
+                    <li class="lista-menu__itens">
+                        <a href="#">desing & ux</a>
+                    </li>
+                </ul>
+                <li><a href="#" class="container__lista__link">Favoritos</a></li>
+                <li><a href="#" class="container__lista__link">Minha estante</a></li>
+            </ul>
         </div>
 
         <div class="container">
-            <a href=""> <img src="./img/Favoritos.svg" alt="" class="container__imagem"></a>
+            <a href=""><img src="./img/Favoritos.svg" alt="" class="container__imagem container__imagem-favoritos"></a>
             <a href=""><img src="./img/Compras.png" alt="" class="container__imagem"></a>
             <a href=""><img src="./img/Usuario.png" alt="" class="container__imagem"></a>
         </div>
@@ -172,19 +203,109 @@
     </section>
 
     <section class="novidades">
-        <h2 class="novidades__titulo">Fique por dentro das novidades!</h2>
-        <p class="novidades__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
-        <input type="email" placeholder="Cadastre seu e-mail" class="novidades__email">
+        <div class="novidades__div">
+            <div class="novidades__frases">
+                <h2 class="novidades__titulo">Fique por dentro das novidades!</h2>
+                <p class="novidades__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+            </div>
+            <input type="email" placeholder="Cadastre seu e-mail" class="novidades__email">
+        </div>
     </section>
 
     <hr>
 
     <footer class="rodape">
-        <h2 class="rodape__titulo">Datior</h2>
+        <div class="rodape__div">
+            <div class="grupo-alura">
+                <h2 class="rodape__titulo">Datior</h2>
+            </div>
+        
+            <div class="educacao"> 
+                <li>
+                    <h3>Educação</h2>
+                </li>
+                <li class="rodape__itens">
+                    <img src="./img/Caelum.svg" alt="Logo caelum">
+                    <p>Caelum</p>
+                </li>
+                <li class="rodape__itens">
+                    <img src="./img/CasaDoCodigo.svg" alt="Logo caelum">
+                    <p>Casa do código</p>
+                </li>
+            </div>
+        
+            <div class="educacao-online">
+                <li>
+                    <h3>Educacao online</h3>
+                </li>
+                <li class="rodape__itens">
+                    <img src="./img/Alura.svg" alt="Logo caelum">
+                    <p>Alura</p>
+                </li>
+                <li class="rodape__itens">
+                    <img src="./img/AluraEmpresas.svg" alt="Logo caelum">
+                    <p>Alura para empresas</p>
+                </li>
+                <li class="rodape__itens">
+                    <img src="./img/AluraLATAM.svg" alt="Logo caelum">
+                    <p>Alura LATAM</p>
+                </li>
+                <li class="rodape__itens">
+                    <img src="./img/AluraStart.svg" alt="Logo caelum">
+                    <p>Alura Start</p>
+                </li>
+                <li class="rodape__itens">
+                    <img src="./img/MusicDot.svg" alt="Logo caelum">
+                    <p>MusicDot</p>
+                </li>
+                <li class="rodape__itens">
+                    <img src="./img/AluraLingua.svg" alt="Logo caelum">
+                    <p>Alura Língua</p>
+                </li>
+                <li class="rodape__itens">
+                    <img src="./img/PM3.svg" alt="Logo caelum">
+                    <p>PM3</p>
+                </li>
+            </div>
+        
+            <div class="comunidade">
+                <li>
+                    <h3>Comunidade</h3>
+                </li>
+                <li class="rodape__itens">
+                    <img src="./img/HipstersTech.svg" alt="Logo caelum">
+                    <p>Hipsters ponto Tech</p>
+                </li>
+                <li class="rodape__itens">
+                    <img src="./img/ScubaDev.svg" alt="Logo caelum">
+                    <p>Scuba Dev</p>
+                </li>
+                <li class="rodape__itens">
+                    <img src="./img/LayersTech.svg" alt="Logo caelum">
+                    <p>Layers ponto Tech</p>
+                </li>
+                <li class="rodape__itens">
+                    <img src="./img/LikeABoss.svg" alt="Logo caelum">
+                    <p>Like a Boss</p>
+                </li>
+                <li class="rodape__itens">
+                    <img src="./img/CarreiraSemFronteira.svg" alt="Logo caelum">
+                    <p>Carreira sem Fronteira</p>
+                </li>
+                <li class="rodape__itens">
+                    <img src="./img/HipstersJobs.svg" alt="Logo caelum">
+                    <p>Hipsters ponto Jobs</p>
+                </li>
+                <li class="rodape__itens">
+                    <img src="./img/GUJ.svg" alt="Logo caelum">
+                    <p>GUJ</p>
+                </li>
+            </div>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script>
+    <script class="script">
         const swiper = new Swiper('.swiper', {
             spaceBetween: 10,
             slidesPerView: 3,
@@ -193,6 +314,7 @@
                 type: 'bullets',
             },
         });
+        
 
     </script>
 </body>

@@ -6,3 +6,11 @@ hr {
     padding: 1em;
     background: var(--branco);
 }
+
+@media screen and(min-width: 1024px) {
+
+    .rodape_dev {
+        display: flex;
+    }
+    
+}
